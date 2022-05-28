@@ -770,7 +770,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
 }
 
 /*  ======================== Mobile ==================================*/
-@media screen and (max-width: 480px) and (max-width: 600px){
+@media screen and (max-width: 480px){
  body{
    text-align: center;
  }
@@ -853,7 +853,6 @@ display: block;
   letter-spacing: 2px;
   text-align: center;
 }
-
 
 }
 /* ------------------------- CV ---------------------------- */
