@@ -22,11 +22,6 @@ body {
 .logo{
   width: 100px;
 }
-ul{
-  width: auto;
-  text-align: center;
-  display: inline-block;
-}
 .search {
   float: right;
   padding: auto;
@@ -307,6 +302,23 @@ a {
 }
 
 
+@media screen and (min-width: 40.375em) {
+  .footer__nav>* {
+    flex: 1;
+  }
+
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+
+  .footer__addr {
+    flex: 1 0px;
+  }
+
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
 
 .Soical_footer{
   display: inline-block;
@@ -632,7 +644,26 @@ figcaption {
   transform: scale(1.15);
 }
 
+/*
 
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
 
 /* ---------------- Main Container Gallery --------------- */
 .container2 {
@@ -649,7 +680,7 @@ figcaption {
   height: 350px;
   position: absolute;
   transform-style: preserve-3d;
-  animation: rotation 60s infinite linear;
+  animation: rotation 30s infinite linear;
 }
 
 #carousel:hover {
@@ -737,9 +768,9 @@ figcaption {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-/* ===================================================================*/
+
 /*  ======================== Mobile ==================================*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) and (max-width: 600px){
  body{
    text-align: center;
  }
@@ -822,6 +853,7 @@ display: block;
   letter-spacing: 2px;
   text-align: center;
 }
+
 
 }
 /* ------------------------- CV ---------------------------- */
