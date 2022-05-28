@@ -45,7 +45,7 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 100vh;
   position: relative;
   text-align: center;
   padding: 0 ;
@@ -302,23 +302,6 @@ a {
 }
 
 
-@media screen and (min-width: 40.375em) {
-  .footer__nav>* {
-    flex: 1;
-  }
-
-  .nav__item--extra {
-    flex-grow: 2;
-  }
-
-  .footer__addr {
-    flex: 1 0px;
-  }
-
-  .footer__nav {
-    flex: 2 0px;
-  }
-}
 
 .Soical_footer{
   display: inline-block;
