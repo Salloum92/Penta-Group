@@ -45,12 +45,12 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
   position: relative;
   text-align: center;
   padding: 0 ;
   background-image: url("images/background.jpg");
-  background-size: 100%;
+  background-size: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 25px;
