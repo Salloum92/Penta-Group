@@ -22,6 +22,11 @@ body {
 .logo{
   width: 100px;
 }
+ul{
+  width: auto;
+  text-align: center;
+  display: inline-block;
+}
 .search {
   float: right;
   padding: auto;
@@ -732,7 +737,7 @@ figcaption {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
+/* ===================================================================*/
 /*  ======================== Mobile ==================================*/
 @media screen and (max-width: 480px){
  body{
